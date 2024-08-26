@@ -1,0 +1,3 @@
+The project scope was to classify multiple pdf documents based on words of interest. Two methods were deployed in the project. 
+Method 1 was based on python script that allows looping through directory of multiple folders and finding pdf document based on word of interest. 
+Method 2 deploys text pre-processing python scripts to extract and prepare data from multiple sources of pdf files, then extract key highly frequently words and build data-frames from the text extract and category. The data frames are then concatenated and used for building various classification models, accuracy of which compared and best performing model selected for deployment.
